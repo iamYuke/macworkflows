@@ -68,3 +68,7 @@ defaults write com.apple.frameworks.diskimages skip-verify-remote -bool true
 6. **清除至当前行尾**   control + k
 
 7. **单词为单位移动**   opetion + 方向键 (iterm2上的热键会有冲突需要调下)
+
+8. **移动到下一行** control + n
+
+9. **移动到上一行** control + p
