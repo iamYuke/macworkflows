@@ -38,3 +38,17 @@ alias gpl='git pull --rebase' #使用rebase 代替merge
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change. 应该放到最后一共.rvm 使用ssh
 export PATH="$PATH:$HOME/.rvm/bin"
+
+# monkeyDev 逆向的环境配置
+export MonkeyDevPath=/opt/MonkeyDev
+export MonkeyDevDeviceIP=
+export PATH=/opt/MonkeyDev/bin:$PATH
+
+# 配置安卓adb环境 前提以后Android 环境  最好直接安装Android Studio
+export Android_SDK_Home="$HOME/Library/Android/sdk"
+export PATH=$PATH:$Android_SDK_Home/tools
+export PATH=$PATH:$Android_SDK_Home/platform-tools
+
+# 修改git命令路径 前提使用brew 安装好git
+export PATH=$PATH:/usr/local/bin/git
+
